@@ -1,0 +1,9 @@
+Make sure to have these branches checked out:
+
+copy_on_write
+release
+zero_copy_context_switch
+
+Then in the release branch, run:
+
+/usr/bin/rake package:debian
